@@ -1,0 +1,326 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+  ​
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+  ​
+body {
+  line-height: 1;
+}
+  ​
+ol, ul {
+  list-style: none;
+}
+  ​
+blockquote, q {
+  quotes: none;
+}
+  ​
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+  content: '';
+  content: none;
+}
+  ​
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*=====================================*/
+
+body {
+  margin: 20px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  opacity: 70%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+select {
+  border: none;
+  background-color: #fff;
+  outline: none;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.entrance {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  background-color: #000;
+  border-width: 0px;
+  margin: 2px;
+  color: #fff;
+  border-radius: 6px;
+  padding: 7px;
+  font-weight: 520;
+}
+
+.btn--log_in {
+  background-color: #fff;
+  color: #000;
+}
+
+.navigation_bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation_bar-element {
+  margin: 5px;
+  font-size: small;
+  font-weight: 600;
+}
+
+.change_page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+
+
+.page {
+  border: 0;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0 5px;
+}
+
+.page:hover {
+  opacity: 70%;
+  transition: 0.3s;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: row;
+}
+
+.page:hover {
+  opacity: 70%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.quote {
+  margin: 40px 0px;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+  margin: 5px 0px;
+}
+
+h5 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.quote-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.blogs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.blog {
+  display: flex;
+  margin: 15px;
+  flex-direction: column;
+  width: 450px;
+}
+
+.blog-img {
+  display: flex;
+  width: 450px;
+  height: 300px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: smaller;
+  margin: 10px 0 5px 0;
+}
+
+.main_blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.main_blog-img {
+  position: relative;
+  width: 1409px;
+  height: 700px;
+}
+
+.blog-text--main {
+  position: absolute;
+  bottom: 0px;
+  left: 280px;
+  color: #fff;
+  font-size: 17px;
+}
+
+.separator {
+  margin: 2px;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+.tag {
+  margin-right: 5px;
+  border: solid black 1px;
+  padding: 3px 8px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.tag--main {
+  border: solid white 1px;
+}
+
+.blog-title--main {
+  color: #fff;
+  font-size: 30px;
+}
+
+.href--main {
+  color: #fff;
+}
+
+.title {
+  margin: 5px 0 10px 0;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.summary {
+  margin: 15px 0;
+}
+
+.footer {
+  background: url(https://top-fon.com/uploads/posts/2021-07/thumbs/1627009549_11-p-fon-gradient-rozovo-zheltii-11.jpg);
+  background-size: 2000px;
+  padding: 80px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-quote {
+  color: #fff;
+}
+
+.footer-text_h1 {
+  font-size: 30px;
+  margin-bottom: 13px;
+}
+
+.footer-text_h5 {
+  font-size: 15px;
+}
+
+.btn--premium {
+  border: solid white 1px;
+  border-radius: 20px;
+  padding: 7px 10px;
+  margin: 30px 0;
+  background: none;
+}
+
+.btn:hover {
+  opacity: 70%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.links {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.links-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link {
+  color: #fff;
+  margin: 5px 0;
+}
+
+.footer-link-group {
+  margin-bottom: 10px;
+}
